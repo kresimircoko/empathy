@@ -18,7 +18,8 @@
     "polymer": "Polymer/polymer#^1.6.0",
     "app-grid": "PolymerElements/app-layout/app-grid#^0.1.0",
     "paper-tabs": "PolymerElements/paper-tabs#^1.7.0",
-    "iron-icons": "PolymerElements/iron-icons#^1.2.0"
+    "iron-icons": "PolymerElements/iron-icons#^1.2.0",
+    "firebase-element": "Polymer/firebase-element#^0.5.6"
   },
   "devDependencies": {
     "web-component-tester": "^4.0.0"
