@@ -1,11 +1,13 @@
-import React, { PropTypes } from 'react'
+import React from 'react';
 
-const Footer = React.createClass({
-	render () {
-		return (
-			<h1>Footer</h1>
-		)
-	}
-})
+const Footer = () => {
+	return (
+		<footer id="site-footer">
+			<div className="container">
+				<p>Some meaningful information about the guild</p>
+			</div>
+		</footer>
+	)
+}
 
 export default Footer;

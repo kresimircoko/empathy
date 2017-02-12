@@ -1,11 +1,11 @@
-import React, { PropTypes } from 'react'
+import React, { Component } from 'react';
 
-const About = React.createClass({
+class About extends Component {
 	render () {
 		return (
 			<h1>About</h1>
 		)
 	}
-})
+}
 
 export default About;

@@ -1,29 +1,22 @@
-import ReactRouter, { Link } from 'react-router';
-import React, { PropTypes } from 'react';
+import React, { Component } from 'react';
+import {BrowserRouter, Link } from 'react-router-dom';
 
-import Footer from '../Footer/Footer';
-import Home from '../Home/Home';
-import About from '../About/About';
-import Apply from '../Apply/Apply';
-import Raiding from '../Raiding/Raiding';
-import Resources from '../Resources/Resources';
-import Register from '../Register/Register';
+const Header = () => {
+	return (
+		<header id="site-header">
+			<div className="container">
+				<img src="http://placehold.it/200x100" alt=""/>
 
-export default class Header extends React.Component {
-	render() {
-		return (
-			<header id="site-header">
-				<container>
-					<h1>Empathy</h1>
-					<nav id="site-nav">
-						<Link to="/about">About</Link>
-						<Link to="/apply">Apply</Link>
-						<Link to="/raiding">Raiding</Link>
-						<Link to="/resources">Resources</Link>
-						<Link to="/register">Register</Link>
-					</nav>
-				</container>
-			</header>
-		)
-	}
-};
+				<nav id="site-nav">
+					<Link className="site-nav-link" to="/about">About</Link>
+					<Link className="site-nav-link" to="/apply">Apply</Link>
+					<Link className="site-nav-link" to="/raiding">Raiding</Link>
+					<Link className="site-nav-link" to="/resources">Resources</Link>
+					<Link className="site-nav-link" to="/register">Register</Link>
+				</nav>
+			</div>
+		</header>
+	)
+}
+
+export default Header;

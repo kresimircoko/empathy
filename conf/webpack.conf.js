@@ -7,6 +7,9 @@ const FailPlugin = require('webpack-fail-plugin');
 const autoprefixer = require('autoprefixer');
 
 module.exports = {
+	devServer: {
+		historyApiFallback: true
+	},
   module: {
     loaders: [
       {

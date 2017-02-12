@@ -1,0 +1,28 @@
+.home-post {
+	background-color: #FFF;
+	border-radius: 3px;
+	box-shadow: $shadow;
+	margin-bottom: 32px;
+}
+
+.home-post-header {
+	border-bottom: 1px solid #EEE;
+	padding: 16px;
+}
+
+.home-post-title {
+
+}
+
+.home-post-content {
+	padding: 16px;
+
+	p {
+		margin: 0;
+	}
+}
+
+.home-post-footer {
+	border-top: 1px solid #EEE;
+	padding: 16px;
+}

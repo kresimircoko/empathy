@@ -1,0 +1,52 @@
+#site-home {
+
+}
+
+#home-info {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 24px;
+
+	.container {
+		justify-content: space-between;
+		padding: 0;
+	}
+}
+
+#info-progression, #info-recruitment {
+	box-shadow: $shadow;
+	padding: 48px;
+	width: 49%;
+
+	h3 {
+		text-align: center;
+		color: #FFF;
+		text-shadow: 1px 1px 2px #333;
+	}
+}
+
+#info-progression {
+	background-image: url(/includes/progression.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#info-recruitment {
+	background-color: #FFF;
+	background-image: url(/includes/recruitment.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#home-content {
+	align-items: center;
+	display: flex;
+	flex: 1;
+	justify-content: center;
+
+	.container {
+		flex-direction: column;
+	}
+}
