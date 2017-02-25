@@ -1,11 +1,17 @@
-import React, { PropTypes } from 'react'
+import React, { Component } from 'react';
+import BodyLayout from '../BodyLayout';
 
-const Resources = React.createClass({
+class Resources extends Component {
 	render () {
 		return (
-			<h1>Resources</h1>
+			<div id="site-resources">
+				<div className="container">
+					<h3>Resources provided by Empathy</h3>
+					<BodyLayout />
+				</div>
+			</div>
 		)
 	}
-})
+}
 
 export default Resources;

@@ -1,9 +1,22 @@
 import React, { Component } from 'react';
+import BodyLayout from '../BodyLayout';
+import InfoCard from '../InfoCard/InfoCard';
 
 class About extends Component {
 	render () {
 		return (
-			<h1>About</h1>
+			<div id="site-about">
+				<section className="top-info" id="about-info">
+					<div className="container">
+						<InfoCard id="info-leadership" name="Leadership" />
+						<InfoCard id="info-ranks" name="Ranks" />
+					</div>
+				</section>
+
+				<div className="container">
+					<BodyLayout />
+				</div>
+			</div>
 		)
 	}
 }

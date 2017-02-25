@@ -1,0 +1,52 @@
+#info-benevolence {
+	background-image: url(/includes/benevolence.jpg);
+	position: relative;
+
+
+}
+
+#info-calamity {
+	background-image: url(/includes/calamity.jpg);
+}
+
+.info-footer {
+	display: flex;
+	width: 100%;
+
+	button {
+		background-color: rgba(#000, 0.4);
+		border-width: 0;
+		border-bottom: 2px solid transparent;
+		color: $secondary;
+		padding: 16px;
+		width: 50%;
+
+		&:hover, &:focus {
+			background-color: rgba(#000, 0.6);
+			border-bottom-color: #FFF;
+			color: #FFF;
+			cursor: pointer;
+			outline: none;
+		}
+	}
+}
+
+#application-template {
+	align-items: flex-start;
+	background-color: #FFF;
+	border-radius: 3px;
+	box-shadow: $shadow;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 24px;
+	width: 50%;
+
+	input, textarea {
+		width: 100%;
+		border-width: 0;
+		border-bottom: 2px solid #FFF;
+		margin-bottom: 24px;
+		padding: 8px;
+	}
+}

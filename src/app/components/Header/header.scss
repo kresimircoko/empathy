@@ -1,3 +1,5 @@
+@import '../../../includes/variables';
+
 #site-header {
 	align-items: center;
 	background-color: $dark;
@@ -5,8 +7,19 @@
 	justify-content: center;
 
 	.container {
+		flex-direction: row;
 		justify-content: space-between;
 		padding: 0;
+	}
+}
+
+#home-link {
+	display: flex;
+
+	img {
+		height: 100px;
+		padding: 16px;
+		width: 100px;
 	}
 }
 
@@ -17,7 +30,7 @@
 
 .site-nav-link {
 	border-bottom: 3px solid transparent;
-	color: rgba(#FFF, 0.70);
+	color: $secondary;
 	padding: 16px 48px;
 	text-transform: capitalize;
 	font-family: Nunito Sans;
@@ -27,5 +40,53 @@
 	&:hover, &:focus {
 		border-color: #FFF;
 		color: #FFF;
+	}
+}
+
+#register-link {
+	color: $green;
+	border: 2px solid $green;
+	border-radius: 2px;
+	padding: 8px 24px;
+	transition: .15s ease;
+
+	&:hover {
+		background-color: $green;
+		color: $dark;
+		transition: .15s ease;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#site-header {
+		.container {
+			flex-wrap: wrap;
+		}
+	}
+
+	#home-link {
+		order: 1;
+	}
+
+	#site-nav {
+		order: 3;
+		width: 100%;
+	}
+
+	.site-nav-link {
+		flex: 1;
+		font-weight: 300;
+		padding: 8px 0;
+		text-align: center;
+
+		&:last-child {
+			padding-left: 8px;
+			padding-right: 16px;
+		}
+	}
+
+	#register-link {
+		order: 2;
+		margin-right: 16px;
 	}
 }

@@ -1,11 +1,17 @@
-import React, { PropTypes } from 'react'
+import React, { Component } from 'react';
+import BodyLayout from '../BodyLayout';
 
-const Raiding = React.createClass({
+class Raiding extends Component {
 	render () {
 		return (
-			<h1>Raiding</h1>
+			<div id="site-raiding">
+				<div className="container">
+					<h3>Raiding in Empathy</h3>
+					<BodyLayout />
+				</div>
+			</div>
 		)
 	}
-})
+}
 
-export default Raiding
+export default Raiding;

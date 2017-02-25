@@ -1,6 +1,7 @@
 #site-footer {
 	align-items: center;
 	background-color: $green;
+	bottom: 0;
 	display: flex;
 	justify-content: center;
 	position: absolute;
@@ -8,5 +9,10 @@
 
 	.container {
 		padding: 0;
+	}
+
+	p {
+		margin: 0;
+		padding: 16px;
 	}
 }

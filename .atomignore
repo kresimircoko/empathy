@@ -6,7 +6,8 @@ gulp_tasks/
 conf/
 readme.md
 license
-.git*
+.github
+.gitattributes
 .yo*
 .babelrc
 //package.json

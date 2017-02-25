@@ -13,7 +13,9 @@ class Post extends Component {
 				</p>
 			</div>
 				<footer className="home-post-footer">
-					<span className="metadata">Metadata</span>
+					<span className="metadata">27.12.16.</span>
+					<span className="metadata">Winterbrush</span>
+					<span className="metadata">Raiding</span>
 				</footer>
 			</article>
 		)
