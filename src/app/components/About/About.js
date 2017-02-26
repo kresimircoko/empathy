@@ -8,8 +8,8 @@ class About extends Component {
 			<div id="site-about">
 				<section className="top-info" id="about-info">
 					<div className="container">
-						<InfoCard id="info-leadership" name="Leadership" />
-						<InfoCard id="info-ranks" name="Ranks" />
+						<InfoCard id="info-leadership" link="/leadership" name="Leadership" />
+						<InfoCard id="info-ranks" link="/ranks" name="Ranks" />
 					</div>
 				</section>
 

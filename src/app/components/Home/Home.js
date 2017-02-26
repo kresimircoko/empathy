@@ -1,6 +1,4 @@
 import React, { PropTypes, Component } from 'react';
-import Progression from './Progression';
-import Recruitment from './Recruitment';
 import InfoCard from '../InfoCard/InfoCard';
 import Post from './Post/Post';
 

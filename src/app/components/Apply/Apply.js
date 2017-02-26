@@ -9,8 +9,8 @@ class Apply extends Component {
 			<div id="site-apply">
 				<section className="top-info" id="about-info">
 					<div className="container">
-						<InfoCard id="info-benevolence" name="Benevolence" />
-						<InfoCard id="info-calamity" name="Calamity" />
+						<InfoCard buttons="true" id="info-benevolence" name="Benevolence" />
+						<InfoCard buttons="true" id="info-calamity" name="Calamity" />
 					</div>
 				</section>
 				<div className="container">

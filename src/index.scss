@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&subset=latin-ext');
 
 @import './includes/variables';
 
@@ -35,11 +36,14 @@ html, body, #root {
 #root {
 
 	> div {
-		position: relative;
+		display: flex;
+		flex-direction: column;
 		min-height: 100vh;
+		position: relative;
 	}
 
 	main {
+		flex: 1;
 		padding-bottom: 64px;
 	}
 }
@@ -115,7 +119,7 @@ main > div {
 		justify-content: space-between;
 		padding: 0;
 
-		section {
+		section, a {
 			align-items: center;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -126,6 +130,10 @@ main > div {
 			justify-content: center;
 			height: 200px;
 			width: 49%;
+
+			section {
+				width: 100%;
+			}
 
 			h3 {
 				color: #FFF;
